@@ -13,7 +13,7 @@ public class Main {
 /*
 или
  */
-        String[] words = str.split("[?! ]+");
+        String[] words = str.split("[,?! ]+");
         for (String word : words) {
             System.out.println(word);
         }
